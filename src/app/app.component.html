@@ -1,0 +1,5 @@
+<app-header></app-header>
+
+<div class="route-container" [@routerTransition]="getOutlet(o)">
+  <router-outlet #o="outlet"></router-outlet>
+</div>
